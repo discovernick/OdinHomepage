@@ -1,0 +1,33 @@
+body {
+    background-color: #1F2937;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto';
+    font-size: 24px;
+}
+
+.item {
+    color: white;
+    flex: 1;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex: 1;
+}
+
+.item.logo {
+    font-weight: bold;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.item.spacer {
+    flex-grow: 0;
+    flex-basis: 100px;
+}
